@@ -8,12 +8,10 @@ int main(){
 double radius;
 double ComputeCircumference;
      
-void getCirumference(double ComputeCircumference(double radius, double c, double PI));
+void getCirumference(double ComputeCircumference(double radius, double PI));
 
-cout <<" What is the radius?" << (ComputeCircumference = 2 * PI * radius) << endl;
-
-
-
+cout <<" What is the radius?" << endl;
+cin >> (ComputeCircumference = 2 * PI * radius);
 
 return 0;
 
